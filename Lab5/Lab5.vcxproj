@@ -115,7 +115,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calcTriangularNumber.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="reverseString.cpp" />
+    <ClCompile Include="sumIntArray.cpp" />
+    <ClCompile Include="validateInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calcTriangularNumber.hpp" />
+    <ClInclude Include="Menu.hpp" />
+    <ClInclude Include="reverseString.hpp" />
+    <ClInclude Include="sumIntArray.hpp" />
+    <ClInclude Include="validateInput.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
